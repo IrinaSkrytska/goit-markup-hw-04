@@ -318,3 +318,6 @@ button:focus {
 }
 .networks {
 }
+.footer-title {
+  display: flex;
+}
