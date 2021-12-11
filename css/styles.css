@@ -59,7 +59,7 @@ header .logo {
   font-size: 14px;
   line-height: 1.14;
   color: #212121;
-  display: inline-block;
+  display: flex;
   margin-right: 50px;
   padding: 32px 0;
 }
@@ -74,7 +74,8 @@ header .logo {
   color: #757575;
   padding: 32px 0;
   margin-left: 50px;
-  display: inline-block;
+  display: flex;
+  align-items: center;
 }
 
 .main-contacts li:first-child {
@@ -96,6 +97,10 @@ header {
   padding: 200px 0;
   max-width: 1600px;
   margin: 0 auto;
+  background-color: #c4c4c4;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url(../images/img\(18\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .title {
   font-weight: 900;
@@ -307,8 +312,6 @@ button:focus {
   margin-bottom: 0;
 }
 .mail-icon {
-  display: flex;
-  width: 16px;
-  height: 12px;
-  margin: 34px 10px 34px 30px;
+  fill: currentColor;
+  margin-right: 10px;
 }
