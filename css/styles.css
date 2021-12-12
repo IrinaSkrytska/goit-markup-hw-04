@@ -312,16 +312,21 @@ button:focus {
   fill: currentColor;
   margin-right: 10px;
 }
-.networks {
-  padding-right: 10px;
-}
-.networks:last-child {
-  padding-right: 0;
-}
+
 .footer-title {
   display: flex;
 }
 .social-links {
   display: flex;
   justify-content: center;
+}
+.customers {
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px 72px;
+}
+.clients-yaco {
+  padding: 16px 32px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
