@@ -165,7 +165,6 @@ header {
   font-size: 36px;
   line-height: 1.7;
   text-align: center;
-  padding-bottom: 50px;
 }
 /*-----Our team------*/
 .team-section {
@@ -174,9 +173,8 @@ header {
 }
 .team-members {
   display: flex;
-  justify-content: center;
 }
-.team-members > li {
+.team-items {
   margin-top: 50px;
   padding-right: 30px;
 }
@@ -190,7 +188,6 @@ header {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
-  padding-top: 30px;
   background-color: #ffffff;
   text-align: center;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -207,7 +204,6 @@ header {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  padding-bottom: 30px;
 }
 /*-----footer-----*/
 .logo-footer {
@@ -317,7 +313,15 @@ button:focus {
   margin-right: 10px;
 }
 .networks {
+  padding-right: 10px;
+}
+.networks:last-child {
+  padding-right: 0;
 }
 .footer-title {
   display: flex;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
 }
