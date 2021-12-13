@@ -174,12 +174,16 @@ header {
 }
 .team-members {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .team-items {
+  display: flex;
+  align-self: center;
+  justify-content: center;
   margin-top: 50px;
   padding-right: 30px;
 }
-
 .sub-benefits {
   font-weight: normal;
   font-size: 14px;
@@ -214,7 +218,8 @@ header {
 .footer {
   background: #2f303a;
   display: flex;
-  padding: 60px 0;
+  padding: 60px 0 60px 215px;
+  align-items: baseline;
 }
 
 .address,
@@ -321,6 +326,7 @@ button:focus {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #ffffff;
 }
 .social-links {
   display: flex;
@@ -339,5 +345,26 @@ button:focus {
 
 .social-networks {
   display: flex;
-  align-items: flex-start;
+}
+.icons-design {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: rgba(255, 255, 255, 0.1);
+}
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.customers {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.client {
+  padding: 16px 32px;
 }
