@@ -16,6 +16,7 @@ body {
   padding: 0 15px;
   width: 1200px;
   margin: 0 auto;
+  max-width: 1600px;
 }
 .hidden {
   font-weight: bold;
@@ -314,7 +315,12 @@ button:focus {
 }
 
 .footer-title {
-  display: flex;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .social-links {
   display: flex;
@@ -329,4 +335,9 @@ button:focus {
   padding: 16px 32px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+}
+
+.social-networks {
+  display: flex;
+  align-items: flex-start;
 }
